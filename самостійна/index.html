@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вплив технологій на сучасне суспільство</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="img/favic.svg" rel="icon" >
+    <link rel="stylesheet" href="fonts/line-awesome/css/line-awesome.css">
+</head>
+<body>
+    
+    <script>
+        "use strict";
+        let today = new Date();
+        let exhibitionDate = new Date(2023, 11, 12); // 12.12.23
+        const day = 86400000;
+        const hour = 3600000;
+        const minute = 60000;
+        let time = exhibitionDate.getTime() - today.getTime();
+        let days = Math.floor(time / day);
+        let hours = Math.floor((time - days * day) / hour);
+        let minutes = Math.floor((time - days * day - hours * hour) / minute);
+        let str = days + " днів, " + hours + " годин, " + minutes + " хвилин.";
+        console.log("До кінця виставки залишилося ", str);
+        alert("До кінця виставки залишилося " + str);
+    </script>
+
+
+
+    <header>
+        <img src="img/logo.svg" alt="Логотип" width="50" height="50">
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="technology_development.html">Етап розвитку технологій</a></li>
+                <li><a href="technology_and_economy.html">Технології та економіка</a></li>
+                <li><a href="impact_of_technology.html">Вплив технологій на спосіб життя</a></li>
+                <li><a href="ethical_aspects.html">Етичні аспекти технологій</a></li>
+                <li><a href="Innovation_and_future.html">Інновації та майбутнє технологій</a></li>
+                <li><a href="author.html">Про автора</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><strong>Технології та Суспільство: Вивчаємо Інновації та Вплив Сучасних Технологій</strong></h1>
+        <p>Вплив технологій на сучасне суспільство є надзвичайно значущим і широкоспектровим. Технологічний прогрес суттєво змінює наш спосіб життя, роботи, освіти та взаємодії. З одного боку, розвиток інформаційних технологій забезпечує безпрецедентний доступ до інформації та сприяє глобальній комунікації.</p>
+        <p>Технології трансформують економіку, сприяючи інноваціям, автоматизації та новим моделям бізнесу. Вплив технологій відчутний у сферах медицини, де вони покращують діагностику та лікування, а також в освіті, де цифрові рішення змінюють підхід до навчання.</p>
+        <p>Одночасно з цим виникають етичні виклики, такі як конфіденційність даних, безпека віртуального простору та соціальна відповідальність технологічних компаній. Штучний інтелект, автономні технології та інші інновації створюють нові можливості, але водночас породжують питання щодо впливу на зайнятість та суспільство в цілому.</p>
+        <p>Усі ці аспекти взаємодії технологій із суспільством роблять цю тему динамічною та завжди актуальною.</p>
+        
+                
+        <h2>Для початку рекомендуємо подивитись це відео</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://youtu.be/VEu6E8vbMv8?si=xEFG-qm6fA2l6UHT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <br>
+        <br>
+        
+        
+        
+        <a href="technology_development.html" class="learn-more-button">Дізнатися більше</a>
+        
+        
+       
+    </main>
+
+
+    
+
+
+
+    <footer>
+        <h3>&copy; 2023 Вплив технологій на сучасне суспільство</h3>
+    </footer>
+</body>
+</html>
+

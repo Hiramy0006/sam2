@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+    
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: #c1aea0; /* Світлий фон */
+
+}
+
+header {
+    background-color: #8B7866; 
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+img {
+    margin-right: 10px;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8B7866; 
+    color: #F5EEDD; 
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+h3{
+
+        text-align: center;
+        font-size: 15px;
+    
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #2D2621; 
+    color: #ddd3d3; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+
+.learn-more-button:hover {
+    background-color: #594b89; /* Змінюємо колір при наведенні */
+}
+
+
+i { 
+font-size: 80px;
+
+}
+
+.icon-block {
+    text-align: left;
+    
+}
+
+.icon-block i {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    
+}
+
+.icon-block i:hover {
+    text-align: left;
+    color: #594b89;
+    
+}
+
+.video {
+    text-align: center; /* Вирівнюємо вміст по центру горизонтально */
+}
+
+.video iframe {
+    display: inline-block; /* Робимо відео блочним елементом */
+    vertical-align: middle; /* Вирівнюємо відео по центру вертикально */
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+}
+
+.author-photo {
+    width: 300px; /* Розмір фото автора */
+    margin-right: 20px; /* Відступ між фото та текстом */
+}
+
+
+/*Owl Carousel*/
+.owl-carousel .item {
+height: 250px;
+}
+.owl-carousel .item img{
+height: 250px;
+width: auto;
+}
+
+

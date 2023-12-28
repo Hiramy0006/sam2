@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Етап розвитку технологій</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/favic.svg" rel="icon" >
+    
+</head>
+
+<body>
+	<header>
+        <img src="img/logo.svg" alt="Логотип" width="50" height="50">
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="technology_development.html">Етап розвитку технологій</a></li>
+                <li><a href="technology_and_economy.html">Технології та економіка</a></li>
+                <li><a href="impact_of_technology.html">Вплив технологій на спосіб життя</a></li>
+                <li><a href="ethical_aspects.html">Етичні аспекти технологій</a></li>
+                <li><a href="Innovation_and_future.html">Інновації та майбутнє технологій</a></li>
+                <li><a href="author.html">Про автора</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+        <h1><strong>Етап розвитку технологій</strong></h1>
+        <p><strong>Початок технологічного віку:</strong></p>
+        <p>Вивчення виникнення перших технологій та їхнього впливу на розвиток суспільства.</p>
+        <p><strong>Індустріальна революція:</strong></p>
+        <p>Розгляд змін, які відбулися завдяки розвитку машин та виробництва.</p>
+        <p><strong>Електроніка та інформаційна ера:</strong></p>
+        <p>Вивчення впливу електроніки, комп'ютерів та Інтернету на сучасне суспільство.</p>
+        
+
+    </main>
+	
+		<!--Owl Carousel-->
+		
+
+        <div class="owl-carousel owl-theme">
+			<div class="item"><img src="img/ia.jpg"></div>
+			<div class="item"><img src="img/Indastr.jpeg"></div>
+			<div class="item"><img src="img/informacionnyhtehnologij.jpg"></div>
+			<div class="item"><img src="img/shutterstock.jpg"></div>							
+		</div>
+
+	</div>
+<!--SCRIPTS-->
+<script src="js/jquery.js"></script>
+	
+<!--Owl Carousel-->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">	
+<script src="owlcarousel/owl.carousel.js"></script>
+<script>
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		autoWidth:true,
+		autoplay:true,
+		autoplayTimeout:1000,
+		autoplayHoverPause:true,
+		margin:10,
+		nav:false,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	})
+
+</script>	
+	
+<br>
+<a href="technology_and_economy.html" class="learn-more-button">Дізнатися більше</a>
+<br>
+<br>
+<footer>
+	<h3>&copy; 2023 Вплив технологій на сучасне суспільство</h3>
+</footer>
+
+</body>
+</html>
